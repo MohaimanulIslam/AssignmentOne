@@ -1,6 +1,13 @@
 
+body{
+    font-family: 'Roboto Slab', serif;
+}
 h1{
     font-size: 50px;
+    font-family: 700;
+}
+h2{
+    font-size: 40px;
 }
 .section-half{
     display: flex;
@@ -9,19 +16,30 @@ h1{
 .clr-orange{
     color: orange;
 }
+.chai-color{
+    color: #575757;
+}
 .div-skip{
 
     width: 50%;
     text-align: justify;
     padding: 50px;
+    margin-left: 50px;
 
 }
 .div-skip img{
     width: 100%;
 }
+.button-orange{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
+}
 .section-about{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
 }
@@ -55,8 +73,11 @@ h1{
     border-radius: 25px;
     
 }
+#foodies-text{
+    font-size: 25px;
+}
 footer{
-    background-color: skyblue;
+    background-color: black;
     text-align: center;
     padding: 30px 50px;
 }
