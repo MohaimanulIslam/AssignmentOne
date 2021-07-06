@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Roboto Slab', serif;
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -12,6 +13,19 @@ h2{
 .section-half{
     display: flex;
     margin-bottom: 100px;
+}
+.section-head{
+    display: flex;
+    padding: 20px;
+    background-color: black;
+}
+.div-head{
+    width: 50%;
+    margin-left: 100px;
+}
+.text-head{
+    text-decoration: none;
+    margin-left: 8%;
 }
 .clr-orange{
     color: orange;
@@ -73,11 +87,16 @@ h2{
     border-radius: 25px;
     
 }
-#foodies-text{
+.foodies-text{
     font-size: 25px;
+    text-decoration: none;
+}
+.div-social{
+    width: 90%;
+    padding-left: 12%;
 }
 footer{
     background-color: black;
     text-align: center;
-    padding: 30px 50px;
+    padding: 20px 50px 135px 50px;
 }
