@@ -10,9 +10,18 @@ h1{
 h2{
     font-size: 40px;
 }
-.section-half{
-    display: flex;
-    margin-bottom: 100px;
+.clr-orange{
+    color: orange;
+}
+.chai-color{
+    color: #575757;
+}
+.button-orange{
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: white;
 }
 .section-head{
     display: flex;
@@ -27,33 +36,21 @@ h2{
     text-decoration: none;
     margin-left: 8%;
 }
-.clr-orange{
-    color: orange;
-}
-.chai-color{
-    color: #575757;
+.section-half{
+    display: flex;
+    margin-bottom: 100px;
 }
 .div-skip{
-
     width: 50%;
     text-align: justify;
     padding: 50px;
     margin-left: 50px;
-
 }
 .div-skip img{
     width: 100%;
 }
-.button-orange{
-    text-decoration: none;
-    background-image: linear-gradient(tomato, orange);
-    padding: 10px 30px;
-    border-radius: 50px;
-    color: white;
-}
 .section-about{
     display: flex;
-    margin-bottom: 50px;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
 }
@@ -62,7 +59,6 @@ h2{
     text-align: justify;
     padding: 50px;
     margin-right: 200px;
-
 }
 .div-about img{
     width: 80%;
@@ -70,7 +66,7 @@ h2{
 }
 .div-recipie{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     margin-left: 350px;
     margin-right: 350px;
 }
@@ -87,13 +83,13 @@ h2{
     border-radius: 25px;
     
 }
-.foodies-text{
-    font-size: 25px;
-    text-decoration: none;
-}
 .div-social{
     width: 90%;
     padding-left: 12%;
+}
+.foodies-text{
+    font-size: 25px;
+    text-decoration: none;
 }
 footer{
     background-color: black;
